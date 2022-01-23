@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.15)
 # set project name
 project("OpenGL_cube")
 
-# NOTE: use vcpkg on windows and specify -DCMAKE_TOOLCHAIN_FILE=D:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake to cmake command
+# NOTE: use vcpkg on windows and specify -DCMAKE_TOOLCHAIN_FILE=E:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake to cmake command
 find_package(glad CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
